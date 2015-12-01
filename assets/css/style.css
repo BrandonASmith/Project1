@@ -1,0 +1,12 @@
+.cell{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	float: left;
+	margin: 2px;
+
+}
+.container{
+	width: 515px;
+	margin: 0 auto;
+}
