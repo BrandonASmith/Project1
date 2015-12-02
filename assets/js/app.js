@@ -2,6 +2,7 @@ var cell = "brandon",
 	obj1 = "",
 	obj2 = "",
 	turncount = 0;
+	sounds = ["50 dre piano key.wav","A_HH_CL.wav","Drum Roll 001.wav","GUITAR3.WAV","HHSong5_Sax.wav","HP_HARPSFALL.WAV","Shaker (27).mp3","Snare083.mp3","violin.wav"]
 
 function play(param) {
 	if (turncount == 0) {
@@ -33,3 +34,5 @@ function checkMatch() {
 }
 
 $('.cell').on('click', play)
+
+var sounds = sounds[Math.floor(Math.random()*sounds.length)];

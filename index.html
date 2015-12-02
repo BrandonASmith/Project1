@@ -3,35 +3,222 @@
 <head>
 	<title>Matching Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
+	
+	<h1 align="center">MPC MATCH</h1>
+
+
+
 	<div class="container">
-		
-		<div class="cell" id="1"></div>
-		<div class="cell" id="2"></div>
-		<div class="cell" id="3"></div>
-		<div class="cell" id="4"></div>
-		<div class="cell" id="5"></div>
-		<div class="cell" id="6"></div>
-		<div class="cell" id="7"></div>
-		<div class="cell" id="8"></div>
-		<div class="cell" id="9"></div>
-		<div class="cell" id="10"></div>
-		<div class="cell" id="1"></div>
-		<div class="cell" id="2"></div>
-		<div class="cell" id="3"></div>
-		<div class="cell" id="4"></div>
-		<div class="cell" id="5"></div>
-		<div class="cell" id="6"></div>
-		<div class="cell" id="7"></div>
-		<div class="cell" id="8"></div>
-		<div class="cell" id="9"></div>
-		<div class="cell" id="10"></div>
-		
+		<div id="buttons">
+			<div class="cell" id="1"><button id="play">Play Audio</button></div>
+			<div class="cell" id="2"><button id="play1">Play Audio</button></div>
+			<div class="cell" id="3"><button id="play2">Play Audio</button></div>
+			<div class="cell" id="4"><button id="play3">Play Audio</button></div>
+			<div class="cell" id="5"><button id="play4">Play Audio</button></div>
+			<div class="cell" id="6"><button id="play5">Play Audio</button></div>
+			<div class="cell" id="7"><button id="play6">Play Audio</button></div>
+			<div class="cell" id="8"><button id="play7">Play Audio</button></div>
+			<div class="cell" id="9"><button id="play8">Play Audio</button></div>
+			<div class="cell" id="10"><button id="play9">Play Audio</button></div>
+			<div class="cell" id="1"><button id="play10">Play Audio</button></div>
+			<div class="cell" id="2"><button id="play11">Play Audio</button></div>
+			<div class="cell" id="3"><button id="play12">Play Audio</button></div>
+			<div class="cell" id="4"><button id="play13">Play Audio</button></div>
+			<div class="cell" id="5"><button id="play14">Play Audio</button></div>
+			<div class="cell" id="6"><button id="play15">Play Audio</button></div>
+			<div class="cell" id="7"><button id="play16">Play Audio</button></div>
+			<div class="cell" id="8"><button id="play17">Play Audio</button></div>
+			<div class="cell" id="9"><button id="play18">Play Audio</button></div>
+			<div class="cell" id="10"><button id="play19">Play Audio</button></div>
+		</div>
 	
 	</div>
 	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript">
+  
+
+   //Assigns audio file to each cell + duplicates 
+  //
+ //
+
+   $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/hihat.wav');
+        //audioElement.load()
+        $('#play').click(function() {
+            audioElement.play();
+        });
+    });
+
+     $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/piano.wav');
+        //audioElement.load()
+        $('#play1').click(function() {
+            audioElement.play();
+        });
+    });
+
+       $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/harp.wav');
+        //audioElement.load()
+        $('#play2').click(function() {
+            audioElement.play();
+        });
+    });
+
+          $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/clap.wav');
+        //audioElement.load()
+        $('#play3').click(function() {
+            audioElement.play();
+        });
+    });
+            $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/Shaker.mp3');
+        //audioElement.load()
+        $('#play4').click(function() {
+            audioElement.play();
+        });
+    });
+
+              $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/808.wav');
+        //audioElement.load()
+        $('#play5').click(function() {
+            audioElement.play();
+        });
+    });
+             $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/drumroll.wav');
+        //audioElement.load()
+        $('#play6').click(function() {
+            audioElement.play();
+        });
+    });  
+
+             $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/Yeah.wav');
+        //audioElement.load()
+        $('#play7').click(function() {
+            audioElement.play();
+        });
+    });  
+
+         $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/What.wav');
+        //audioElement.load()
+        $('#play8').click(function() {
+            audioElement.play();
+        });
+    });        
+         $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/gun.mp3');
+        //audioElement.load()
+        $('#play9').click(function() {
+            audioElement.play();
+        });
+    }); 
+
+         $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/hihat.wav');
+        //audioElement.load()
+        $('#play10').click(function() {
+            audioElement.play();
+        });
+    });
+
+     $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/piano.wav');
+        //audioElement.load()
+        $('#play11').click(function() {
+            audioElement.play();
+        });
+    });
+
+       $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/harp.wav');
+        //audioElement.load()
+        $('#play12').click(function() {
+            audioElement.play();
+        });
+    });
+
+          $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/clap.wav');
+        //audioElement.load()
+        $('#play13').click(function() {
+            audioElement.play();
+        });
+    });
+            $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/Shaker.mp3');
+        //audioElement.load()
+        $('#play14').click(function() {
+            audioElement.play();
+        });
+    });
+
+              $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/808.wav');
+        //audioElement.load()
+        $('#play15').click(function() {
+            audioElement.play();
+        });
+    });
+             $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/drumroll.wav');
+        //audioElement.load()
+        $('#play16').click(function() {
+            audioElement.play();
+        });
+    });  
+
+             $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/Yeah.wav');
+        //audioElement.load()
+        $('#play17').click(function() {
+            audioElement.play();
+        });
+    });  
+
+         $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/What.wav');
+        //audioElement.load()
+        $('#play18').click(function() {
+            audioElement.play();
+        });
+    });        
+         $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', './assets/sounds/gun.mp3');
+        //audioElement.load()
+        $('#play19').click(function() {
+            audioElement.play();
+        });
+    });        
+
+
+	</script>
 </body>
 </html>
